@@ -21,7 +21,7 @@ public class Classwork {
        System.out.println("Enter age:");
     age= james.nextInt();
     System.out.println("Enter likes:");
-     likes= james.nextInt();
+     likes20= james.nextInt();
     
         // TODO code application logic here
     }
