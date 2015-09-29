@@ -5,3 +5,15 @@
 
 #NB do not use the swapcase python method.
 
+def SwapCase(str):
+    temp = ""
+
+    for c in str:
+        if c.isupper():
+            temp = temp + c.lower()
+        else:
+            temp = temp + c.upper()
+
+    return temp
+print(SwapCase('doNut'))
+    

@@ -19,3 +19,5 @@
 # gigasecond(1988, 5, 15) # ["2020-01-22", "Wednesday", "1764 days left"]
 # gigasecond(2015, 2, 17) # ["2046-10-26", "Friday", "11538 days left"]
 
+import datetime
+today = datetime.date.today()
