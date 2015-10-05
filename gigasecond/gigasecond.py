@@ -22,7 +22,7 @@
 from datetime import date, timedelta
 
 WEEKDAYS = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
-
+#define function with parameters
 def gigasecond(year, month, day):
     giga_birthsecond = date(year, month, day) + timedelta(seconds=1000000000)
     birthday = WEEKDAYS[giga_birthsecond.weekday()]
