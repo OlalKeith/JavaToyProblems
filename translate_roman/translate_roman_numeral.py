@@ -12,3 +12,10 @@
 # translateRomanNumeral("IV") # 4
 #
 # You should return `nil` on invalid input.
+
+
+#import module roman
+import roman
+#Function definition is here
+def arabic_numerals(roman_numerals):
+
