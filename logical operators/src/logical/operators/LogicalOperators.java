@@ -19,7 +19,7 @@ public class LogicalOperators {
         boy = 18;
         girl = 50;
         
-        if (boy > 10 && girl < 49){
+        if (boy > 20 || girl > 80){
         System.out.println("you can enter");
     }else{
           System.out.println("you cannot enter");  
