@@ -16,7 +16,7 @@ public class SwitchStatement {
      */
     public static void main(String[] args) {
         int age;
-        age = 3;
+        age = 7;
         //A switch statement allows a variable to be tested for equality against a list of values. 
         //Each value is called a case, and the variable being switched on is checked for each case.
         switch (age){
