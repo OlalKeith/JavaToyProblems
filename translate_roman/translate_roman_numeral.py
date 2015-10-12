@@ -17,5 +17,12 @@
 #import module roman
 import roman
 #Function definition is here
+
 def arabic_numerals(roman_numerals):
+    try:
+        return roman.fromRoman(roman_numerals.upper())
+    except:
+        return None
+
+print arabic_numerals("LX")
 

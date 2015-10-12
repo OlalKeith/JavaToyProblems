@@ -28,8 +28,32 @@
 
 # If we enter 'DM1182', you program should return:
 # {:total_KSH=> 13290, :largest=> 'Nairobi'}.
-
-def domestic_trade(itemId):
+#import csv
+#def domestic_trade(itemId):
   # Your Code Here!
 
-domestic_trade("DM1724")
+#domestic_trade("DM1724")
+store = {
+    "Nairobi": 7000, 
+    "Nairobi":1968, 
+   "Naivasha":5858, 
+    "Mombasa":6876, 
+    "Nakuru":5464 ,
+        }
+#itemId = {
+    #"DM1210":7000, 
+    #"DM1182":1968, 
+    #"DM1182":5858, 
+    #"DM1210":6876, 
+    #"DM1182":5464, 
+  #}
+total = 0  
+for key in store:
+      print key
+      print "store: %s" % store[key]
+      #print "itemId: %s" % itemId[key]
+
+      total = total + store[key] 
+
+print key
+print total
