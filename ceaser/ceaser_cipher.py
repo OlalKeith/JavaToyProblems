@@ -18,6 +18,9 @@ cipher = ''
 
 
 for c in plaintext:
-    cipher += alphabet[(alphabet.index(c)+ num)% (len(alphabet))]
+    if c.isalpha():
+        cipher += alphabet[(alphabet.index(c)+ num)]
+    else:
+        cipher+= c
 
 print ('Your encryted message is:' + cipher)    
