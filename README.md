@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##MS-4-Toy-Problems
   Toy Problems for Moringa School Cohort 4
 
@@ -19,3 +20,6 @@
   6) To fetch the new toy problem each day from the central repo, you will need to issue the following command:
 
   # $ git pull upstream master
+=======
+# JavaToyProblems
+>>>>>>> c5469361d732b8e8a27e3ae795e6681111c8a1d3
