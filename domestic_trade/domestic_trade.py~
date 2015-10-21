@@ -32,38 +32,22 @@
 
 # If we enter 'DM1182', you program should return:
 # {:total_KSH=> 13290, :largest=> 'Nairobi'}.
-<<<<<<< HEAD
-#import csv
-#def domestic_trade(itemId):
+
+
+def domestic_trade(itemId):
   # Your Code Here!
+    import csv
+  # Open csv file and assign it to variable opencsv
+    with open('TRANS.csv', 'r') as csvfile:
+    	total = 0
+  # Go through the csv file
+        readCSV = csv.reader(csvfile, delimiter=',')
+  # Goes through the rows in the csv file
+        for row in readCSV:
+            for field in row:
+                if field == itemId:
+           			total += str(row[2])
+           	print total
 
-#domestic_trade("DM1724")
-store = {
-    "Nairobi": 7000, 
-    "Nairobi":1968, 
-   "Naivasha":5858, 
-    "Mombasa":6876, 
-    "Nakuru":5464 ,
-        }
-#itemId = {
-    #"DM1210":7000, 
-    #"DM1182":1968, 
-    #"DM1182":5858, 
-    #"DM1210":6876, 
-    #"DM1182":5464, 
-  #}
-total = 0  
-for key in store:
-      print key
-      print "store: %s" % store[key]
-      #print "itemId: %s" % itemId[key]
-
-      total = total + store[key] 
-
-print key
-print total
-=======
-
-
-
->>>>>>> 6cc3a28163036e6d8900812ffdfd444acb075f8a
+domestic_trade("DM1724")
+csvfile.close()
