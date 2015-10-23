@@ -42,14 +42,5 @@
 # presses("i 8 2 Many mandazi 4 brekky") # 55
 
 # Bonus: Try to avoid hard-coding the number of button presses for each letter!
-# adgjmptw1  are 1
-# behknqux0 are 2
-# cfilorvy are 3
-# 23456s8z are 4
-# 79 are 5
-# collect input
-# separate and assign to variable
-# check for letters
-# add the total of numbers
 
 
